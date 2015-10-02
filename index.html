@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>SJSU Scheduler</title>
+    <style>
+    p {
+        font-family: sans-serif;
+        color: #386D95;
+    }
+    
+    h1 {
+        color: #FFEB4E;
+        font-family: sans-serif;
+    }
+    
+    h2 {
+        color: #FFEB4E;
+        font-family: sans-serif;
+    }
+    
+
+    /*
+    #nav {
+        line-height: 30px;
+        height: 300px;
+        width: 100px;
+        float: left;
+        padding: 5px;
+        padding-top: 40px;
+        margin-right: 40px;
+    }
+    */
+
+    #nav a{
+        color: yellow;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="contents">
+        <header id="header">
+            <div>
+                <h1 align="center">SJSU Scheduler</h1>
+            </div>
+        </header>
+        <nav id="nav" role="navigation">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="sample.html">Sample</a></li>
+            </ul>
+        </nav>
+        <section id="form-section">
+            <form action="CheckLogIn.php" method="post" align="center">
+                <div class="studentid">
+                    <label>StudentID:</label>
+                    <input name="StudentID" type="text" />
+                </div>
+                <div class="password">
+                    <label>Password:</label>
+                    <input name="Password" type="password" />
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </section>
+        <section class="message">
+            <div class="footer-content">
+                <h2> "Live long and prosper!"</h2>
+            </div>
+        </section>
+        <footer class="footer">
+            <div>
+                <p id="footerMessage">The page is made possible by Team Brogrammers</p>
+                <a href="http://github.com/marcokuang/CS174">Project at gitHub</a>
+            </div>
+        </footer>
+</body>
+
+</html>
