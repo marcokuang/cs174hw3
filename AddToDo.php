@@ -5,8 +5,10 @@
 <body>
 	<div class="contents">
 		<header id="header" class="header">
-			<h1>Add New Classes</h1>
-			<a href="addEntry.php">Show ToDoTable</a>
+			<h1 align="center">Add New Classes</h1>
+			<div style="text-align:center; padding:30px;">
+				<a href="addEntry.php">Show ToDoTable</a>
+			</div>
 			</header><!-- /header -->
 			<section id="result" align="center">
 				<?php
