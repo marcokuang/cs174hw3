@@ -52,9 +52,13 @@
 		print "
 		<tr>
 		\n";
+		//$count = 1;
+		print "<th>Item #</th>";
 		foreach ($row as $field => $value) {
 			print "
+			<//th>$count</th>\n
 	 		<th>$field</th>\n";
+	 		$count++;
 	 	}
 	 	print "
 	 	<tr>\n";
